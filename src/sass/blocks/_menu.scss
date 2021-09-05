@@ -16,7 +16,7 @@
     &__block {
         position: relative;
         width: 345px;
-        background-color: $main-color;
+        background-color: $main-back-color;
         height: 100%;
         padding-top: 140px;
         padding-left: 40px;
@@ -47,7 +47,7 @@
             width: 15px;
             height: 15px;
             border-radius: 100%;
-            border: 1px solid $promo-main-color;
+            border: 1px solid $main-text-color;
             transition: all 0.6s;
         }
         &:hover {
@@ -56,7 +56,7 @@
             }
         }
         a {
-            color: $promo-main-color;
+            color: $main-text-color;
         }
     }
     &__social {
@@ -75,7 +75,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: $main-color;
+        background-color: $main-back-color;
         opacity: 0.6;
     }
 }

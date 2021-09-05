@@ -18,12 +18,12 @@
     &__divider {
         width: 2px;
         height: 70px;
-        background-color: $promo-main-color;
+        background-color: $main-text-color;
     }
     &__text {
         height: 150px;
         width: 25px;
-        color: $promo-main-color;
+        color: $main-text-color;
         span {
             transform: rotate(-90deg) translate(-20%,-260%);
             display: block;
