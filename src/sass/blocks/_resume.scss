@@ -70,6 +70,7 @@
             @include before_circle;
             img {
                 position: absolute;
+                object-fit: cover;
                 left: 17px;
                 top: 14px;
             }

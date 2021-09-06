@@ -462,11 +462,11 @@
 
                     <form action="#" class="contacts__form">
                         <div class="contacts__input">
-                            <input name="name" id="name" type="text" placeholder="Enter name...">
+                            <input name="name" id="name" type="text" placeholder="Enter name..." required>
                             <label for="name">Your name</label>
                         </div>
                         <div class="contacts__input">
-                            <input name="email" id="email" type="email" placeholder="Enter mail...">
+                            <input name="email" id="email" type="email" placeholder="Enter mail..." required>
                             <label for="email">Your email</label>
                         </div>
 
@@ -474,8 +474,12 @@
                             <textarea name="text" id="text" placeholder="Enter message..."></textarea>
                             <label for="text">Your message</label>
                         </div>
-                        <div>
-                            <button class="contacts__btn btn">Send message</button>
+                        <div class="contacts__triggers">
+                            <button class="contacts__btn btn">Отправить сообщение</button>
+                            <div class="contacts__policy">
+                                <input required type="checkbox">
+                                <span>I agree with <a href="/policy.html">the privacy policy</a></span>
+                            </div>
                         </div>
                     </form>
                 </div>
