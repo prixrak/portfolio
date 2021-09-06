@@ -1,9 +1,10 @@
 .resume {
   padding-top: 120px;
-  background: #000;
+  background: $main-back-color;
     &__title {
         position: relative;
         text-align: center;
+        z-index: 20;
         @include before_circle;
         &:before {
             top: -6px;
