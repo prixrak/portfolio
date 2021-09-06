@@ -1,20 +1,5 @@
 .resume {
   padding-top: 120px;
-  background: $main-back-color;
-    &__title {
-        position: relative;
-        text-align: center;
-        z-index: 20;
-        @include before_circle;
-        &:before {
-            top: -6px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    }
-    &__subtitle {
-        text-align: center;
-    }
     &__wrapper {
         padding: 60px 65px 0 65px;
         display: grid;
@@ -62,7 +47,8 @@
             width: 45px;
             position: absolute;
             top: 68px;
-            background-color: $elements-color;;
+            background-color: $elements-color;
+            z-index: 20;
         }
         &-head {
             position: relative;
@@ -79,6 +65,7 @@
             position: absolute;
             top: 50px;
             left: 45px;
+            z-index: 0;
             @include before_circle;
             img {
                 position: absolute;

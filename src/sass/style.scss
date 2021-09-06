@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     color: $main-text-color;
+    background-color: $main-back-color;
 }
 
 .container {
@@ -32,4 +33,6 @@
 @import 'blocks/about';
 @import 'blocks/resume';
 @import 'blocks/skills';
+@import 'blocks/portfolio';
+@import 'blocks/pricelist';
 
