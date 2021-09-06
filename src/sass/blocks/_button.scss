@@ -3,4 +3,9 @@
     background: $elements-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     padding: 12px 25px;
+    &:hover {
+        animation: wowBtn 1s ease-in-out;
+        color: yellow;
+        text-decoration: none;
+    }
 }

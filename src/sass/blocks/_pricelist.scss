@@ -1,5 +1,6 @@
 .price-list {
   padding-top: 120px;
+  background-color: $main-back-color;
   &__items {
     margin-top: 60px;
     padding: 0 60px;
@@ -15,7 +16,6 @@
       grid-template: repeat(2, minmax(21px, auto)) / repeat(2, auto);
       row-gap: 5px;
       padding-left: 25px;
-      z-index: 0;
       &:before {
           content: '';
           width: 15px;
