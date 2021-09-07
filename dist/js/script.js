@@ -1,7 +1,8 @@
 const hamburger = document.querySelector('.hamburger'),
       menu = document.querySelector('.menu'),
       closeElem = document.querySelector('.menu__close'),
-      closeOverlaySide = document.querySelector('.menu__overlay');
+      closeOverlaySide = document.querySelector('.menu__overlay'),
+      linksToSections = document.querySelectorAll('.menu__link');
 
 hamburger.addEventListener('click', () => {
     menu.classList.add('menu_active');
@@ -13,6 +14,12 @@ closeElem.addEventListener('click', () => {
 
 closeOverlaySide.addEventListener('click', () => {
     menu.classList.remove('menu_active');
+});
+
+linksToSections.forEach(item => {
+    item.addEventListener('click', () => {
+        menu.classList.remove('menu_active');
+    });
 });
 
 const counters = document.querySelectorAll('.skills__ratings-counter'),
